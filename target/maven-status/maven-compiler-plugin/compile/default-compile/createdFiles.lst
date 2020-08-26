@@ -1,0 +1,11 @@
+ar\com\trazabilidad\servicio\NewCrossOriginResourceSharingFilter.class
+ar\com\trazabilidad\util\Constants.class
+ar\com\trazabilidad\web\TestServlet.class
+ar\com\trazabilidad\servicio\UsuarioServiceRemote.class
+ar\com\trazabilidad\servicio\UsuarioServiceLocal.class
+ar\com\trazabilidad\web\Main.class
+ar\com\trazabilidad\dominio\Usuarios.class
+ar\com\trazabilidad\imp\UsuarioDaoImpl.class
+ar\com\trazabilidad\servicio\UsuarioServiceImpl.class
+ar\com\trazabilidad\servicio\UsuarioServiceRS.class
+ar\com\trazabilidad\datos\UsuarioDAO.class
