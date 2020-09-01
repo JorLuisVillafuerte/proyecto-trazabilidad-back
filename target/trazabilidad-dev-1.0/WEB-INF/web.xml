@@ -8,11 +8,13 @@
             30
         </session-timeout>
     </session-config>
+    <!-- INICIO CONFIGURACION PARA HABILITAR SERVICIOS WEB/API-->
     <servlet>
         <servlet-name>JerseyWebApplication</servlet-name>
         <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
         <init-param>
             <param-name>jersey.config.server.provider.packages</param-name>
+            <!-- PAQUETE DONDE ESTAN LAS CLASES JAVA DE SERVICIOS WEB-->
             <param-value>ar.com.trazabilidad.servicio</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
@@ -21,4 +23,5 @@
         <servlet-name>JerseyWebApplication</servlet-name>
         <url-pattern>/webservice/*</url-pattern>
     </servlet-mapping>
+    <!-- FIN DE CONFIG SERVICIOS WEB/API-->
 </web-app>
